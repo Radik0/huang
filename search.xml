@@ -3,13 +3,26 @@
   <entry>
     <title>html</title>
     <url>/2020/06/16/html/</url>
-    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><hr>
-<h2 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h2><h3 id="块元素"><a href="#块元素" class="headerlink" title="块元素"></a>块元素</h3><p>页面布局，基本什么元素都能放</p>
-<h3 id="行内元素"><a href="#行内元素" class="headerlink" title="行内元素"></a>行内元素</h3><p> 包裹文字，一般是在块元素里放行内元素，反之者不用。</p>
-<p><strong>p元素里不放任何的块元素</strong></p>
-<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span> 网页的头部 可以有很多</span><br><span class="line"><span class="tag">&lt;<span class="name">main</span>&gt;</span>   网页的主体部分，只能又一个 特别 多了就不能体现出特殊</span><br><span class="line"><span class="tag">&lt;<span class="name">footer</span>&gt;</span> 网页的尾部</span><br><span class="line"><span class="tag">&lt;<span class="name">nav</span>&gt;</span>网页中的导航</span><br><span class="line"><span class="tag">&lt;<span class="name">aside</span>&gt;</span> 和主题相关的其他内容 （侧边栏</span><br><span class="line"><span class="tag">&lt;<span class="name">article</span>&gt;</span> 独立的文章/区块</span><br><span class="line"><span class="tag">&lt;<span class="name">section</span>&gt;</span> 表示一个独立的区块，上面都不行的时候就用他</span><br><span class="line">（显示效果没有区别，由css定义）</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span> 没有语义，表示区块 常用的元素</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span> 行内元素 没有语义 用于网页中选中文字</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<hr>
+<p>title：html<br>      date：2020-06-16 11:26:02<br>      tages：html </p>
+<hr>
+<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><hr>
+<h2 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h2><h3 id="行内元素"><a href="#行内元素" class="headerlink" title="行内元素"></a>行内元素</h3><table>
+<thead>
+<tr>
+<th>块元素页面布局，</th>
+<th>基本什么元素都能放</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>行内元素</td>
+<td>包裹文字，一般是在块元素里放行内元素.且<strong>p元素里不放任何的块元素</strong></td>
+</tr>
+</tbody></table>
+<p>#####标签</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span> 网页的头部 可以有很多</span><br><span class="line"><span class="tag">&lt;<span class="name">main</span>&gt;</span>   网页的主体部分，只能又一个 特别 多了就不能体现出特殊</span><br><span class="line"><span class="tag">&lt;<span class="name">footer</span>&gt;</span> 网页的尾部</span><br><span class="line"><span class="tag">&lt;<span class="name">nav</span>&gt;</span>网页中的导航</span><br><span class="line"><span class="tag">&lt;<span class="name">aside</span>&gt;</span> 和主题相关的其他内容 （侧边栏</span><br><span class="line"><span class="tag">&lt;<span class="name">article</span>&gt;</span> 独立的文章/区块</span><br><span class="line"><span class="tag">&lt;<span class="name">section</span>&gt;</span> 表示一个独立的区块，上面都不行的时候就用他</span><br><span class="line">（显示效果没有区别，由css定义）</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span> 没有语义，表示区块 常用的元素</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span> 行内元素 没有语义 用于网页中选中文字</span><br></pre></td></tr></table></figure>
 
-<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>list，<strong>有序 无序 定义</strong></p>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>list，<strong>有序 无序</strong></p>
 <a id="more"></a>
 
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">无序列表</span><br><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span> 导航菜单</span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">有序列表</span><br><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">定义列表 dl</span><br><span class="line">dt 定义的内容</span><br><span class="line">dd 对dt解释说明</span><br><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dt</span>&gt;</span><span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -17,16 +30,35 @@
 <p><em>列表之间可以互相嵌套</em></p>
 <h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><p>a标签</p>
 <h4 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h4><p>######相对路径vs绝对路径</p>
-<p>​    herf 指定跳转路径 可以是外部网站，也可以是内部页面的地址.</p>
-<p>到转到服务器内部是 使用的是相对路径.默认是./ , . /代表当前文件在的位置, ../ 上一级目录</p>
+<p>herf 指定跳转路径 可以是外部网站，也可以是内部页面的地址.<br> 到转到服务器内部是 使用的是相对路径.默认是./ , . /代表当前文件在的位置, ../ 上一级目录</p>
 <p>属于行内元素，<strong>什么都能放，但不能放他自己</strong></p>
 <!--more-->
 
-<h4 id="a的其他属性"><a href="#a的其他属性" class="headerlink" title="a的其他属性"></a>a的其他属性</h4><p>target 指定超链接打开位置 </p>
-<p>_self 当前位置打开</p>
-<p>_blank 新的页面打开 </p>
-<p>herf的属性设置为#，就可以回到当前页面的顶部</p>
-<p>id属性（不重复） <strong>每一个标签都可以有此标识，字母开头，不能重复</strong></p>
+<h4 id="a的其他属性"><a href="#a的其他属性" class="headerlink" title="a的其他属性"></a>a的其他属性</h4><p>herf的属性设置为#，就可以回到当前页面的顶部<br>         id属性（不重复）<br><strong>每一个标签都可以有此标识，字母开头，不能重复</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">target</th>
+<th>指定超链接打开位置</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">_self</td>
+<td>当前位置打开</td>
+</tr>
+<tr>
+<td align="left">_blank</td>
+<td>新的页面打开</td>
+</tr>
+<tr>
+<td align="left">herf</td>
+<td></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td></td>
+</tr>
+</tbody></table>
 <p>跳转指定位置时 #目标元素和id属性值 </p>
 <p><strong><em>可以作为超链接的占位符使用,或者JavaScript:;成为占位符</em></strong></p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">""</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span> =<span class="string">""</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span>   </span><br><span class="line">HEXO_ALGOLIA_INDEXING_KEY=1a14c8923146d2f14eb66df2d7b392d6</span><br><span class="line"></span><br><span class="line"> 	<span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">"#a"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span> =<span class="string">"a"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -38,14 +70,7 @@
 
 
 
-
-
 ]]></content>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/06/16/test/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -68,6 +93,11 @@
   <entry>
     <title>text</title>
     <url>/2020/06/16/text/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/06/16/test/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
