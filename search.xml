@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/06/16/test/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>html</title>
+    <url>/2020/06/16/html/</url>
+    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><hr>
+<h2 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h2><h3 id="块元素"><a href="#块元素" class="headerlink" title="块元素"></a>块元素</h3><p>页面布局，基本什么元素都能放</p>
+<h3 id="行内元素"><a href="#行内元素" class="headerlink" title="行内元素"></a>行内元素</h3><p> 包裹文字，一般是在块元素里放行内元素，反之者不用。</p>
+<p><strong>p元素里不放任何的块元素</strong></p>
+<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span> 网页的头部 可以有很多</span><br><span class="line"><span class="tag">&lt;<span class="name">main</span>&gt;</span>   网页的主体部分，只能又一个 特别 多了就不能体现出特殊</span><br><span class="line"><span class="tag">&lt;<span class="name">footer</span>&gt;</span> 网页的尾部</span><br><span class="line"><span class="tag">&lt;<span class="name">nav</span>&gt;</span>网页中的导航</span><br><span class="line"><span class="tag">&lt;<span class="name">aside</span>&gt;</span> 和主题相关的其他内容 （侧边栏</span><br><span class="line"><span class="tag">&lt;<span class="name">article</span>&gt;</span> 独立的文章/区块</span><br><span class="line"><span class="tag">&lt;<span class="name">section</span>&gt;</span> 表示一个独立的区块，上面都不行的时候就用他</span><br><span class="line">（显示效果没有区别，由css定义）</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span> 没有语义，表示区块 常用的元素</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span> 行内元素 没有语义 用于网页中选中文字</span><br></pre></td></tr></table></figure>
+
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>list，<strong>有序 无序 定义</strong></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">无序列表</span><br><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span> 导航菜单</span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">有序列表</span><br><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">定义列表 dl</span><br><span class="line">dt 定义的内容</span><br><span class="line">dd 对dt解释说明</span><br><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dt</span>&gt;</span><span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><em>列表之间可以互相嵌套</em></p>
+<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><p>a标签</p>
+<h4 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h4><p>######相对路径vs绝对路径</p>
+<p>​    herf 指定跳转路径 可以是外部网站，也可以是内部页面的地址.</p>
+<p>到转到服务器内部是 使用的是相对路径.默认是./ , . /代表当前文件在的位置, ../ 上一级目录</p>
+<p>属于行内元素，<strong>什么都能放，但不能放他自己</strong></p>
+<a id="more"></a>
+
+<h4 id="a的其他属性"><a href="#a的其他属性" class="headerlink" title="a的其他属性"></a>a的其他属性</h4><p>target 指定超链接打开位置 </p>
+<p>_self 当前位置打开</p>
+<p>_blank 新的页面打开 </p>
+<p>herf的属性设置为#，就可以回到当前页面的顶部</p>
+<p>id属性（不重复） <strong>每一个标签都可以有此标识，字母开头，不能重复</strong></p>
+<p>跳转指定位置时 #目标元素和id属性值 </p>
+<p><strong><em>可以作为超链接的占位符使用,或者JavaScript:;成为占位符</em></strong></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">""</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span> =<span class="string">""</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span>   </span><br><span class="line"> 	<span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">"#a"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span> =<span class="string">"a"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="图片标签"><a href="#图片标签" class="headerlink" title="图片标签"></a>图片标签</h3><p>引入图片 scr 图片路径 也可以网络链接 与超链接类似 自结束标签</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">""</span> <span class="attr">alt</span>=<span class="string">""</span> &gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>text</title>
+    <url>/2020/06/16/text/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
