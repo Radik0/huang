@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://radik0.github.io/2021/05/08/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</loc>
+    
+    <lastmod>2021-05-29T07:39:17.796Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://radik0.github.io/2021/05/11/sql%20%E6%B3%A8%E5%85%A5/</loc>
     
-    <lastmod>2021-05-18T03:16:38.564Z</lastmod>
+    <lastmod>2021-05-29T07:37:05.330Z</lastmod>
     
   </url>
   
@@ -23,13 +30,6 @@
   </url>
   
   <url>
-    <loc>http://radik0.github.io/2021/05/08/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</loc>
-    
-    <lastmod>2021-05-08T06:59:05.061Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://radik0.github.io/2020/01/14/5w2h-godweiyang/</loc>
     
     <lastmod>2021-03-31T14:38:08.000Z</lastmod>
@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>http://radik0.github.io/archives/index.html</loc>
+    <loc>http://radik0.github.io/about/index.html</loc>
     
     <lastmod>2021-03-31T14:38:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://radik0.github.io/about/index.html</loc>
+    <loc>http://radik0.github.io/archives/index.html</loc>
     
     <lastmod>2021-03-31T14:38:08.000Z</lastmod>
     
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://radik0.github.io/categories/index.html</loc>
+    <loc>http://radik0.github.io/friends/index.html</loc>
     
     <lastmod>2021-03-31T14:38:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://radik0.github.io/friends/index.html</loc>
+    <loc>http://radik0.github.io/categories/index.html</loc>
     
     <lastmod>2021-03-31T14:38:08.000Z</lastmod>
     
@@ -138,13 +138,6 @@
     <loc>http://radik0.github.io/categories/index-1.html</loc>
     
     <lastmod>2020-06-16T08:26:56.249Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://radik0.github.io/2020/06/16/text/</loc>
-    
-    <lastmod>2020-06-16T03:37:10.925Z</lastmod>
     
   </url>
   
